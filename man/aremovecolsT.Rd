@@ -1,0 +1,24 @@
+\name{aremovecolsT}
+\alias{aremovecolsT}
+\title{Remove columns from data.table that fuzzy match string}
+\usage{
+  aremovecolsT(dt = stop("dt not supplied"),
+    str = stop("str not supplied"))
+}
+\arguments{
+  \item{dt}{a data.table object}
+
+  \item{str}{a string with which to fuzzy match the column
+  names of 'dt'}
+}
+\value{
+  A subset of the columns of 'dt'
+}
+\description{
+  Uses fuzzy string matching to select which columns of
+  'dt' to remove.
+}
+\author{
+  Ben Veal
+}
+

@@ -1,0 +1,25 @@
+\name{afindcols}
+\alias{afindcols}
+\title{Show names and numbers of columns from df with names fuzzy matching string (ignoring case)}
+\usage{
+  afindcols(df = stop("df not supplied"),
+    str = stop("str not supplied"))
+}
+\arguments{
+  \item{df}{a data.frame object}
+
+  \item{str}{a character object}
+}
+\value{
+  A data.frame object with one column containing names of
+  columns of 'df', and whose row names are the
+  corresponding row numbers of 'df'
+}
+\description{
+  Uses fuzzy matching to find columns of 'df' that match
+  string 'str'
+}
+\author{
+  Ben Veal
+}
+

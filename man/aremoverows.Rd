@@ -1,0 +1,27 @@
+\name{aremoverows}
+\alias{aremoverows}
+\title{Remove rows from data.frame that fuzzy match string}
+\usage{
+  aremoverows(df = stop("df not supplied"),
+    str = stop("str not supplied"))
+}
+\arguments{
+  \item{df}{a data.frame object}
+
+  \item{str}{a string with which to fuzzy match the row
+  names of 'df'}
+}
+\value{
+  A subset of the rows of 'df'
+}
+\description{
+  Remove rows from data.frame that fuzzy match string
+}
+\details{
+  Uses fuzzy string matching to select which rows of 'df'
+  to remove.
+}
+\author{
+  Ben Veal
+}
+
