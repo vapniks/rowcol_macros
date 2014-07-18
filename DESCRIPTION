@@ -1,4 +1,4 @@
-Package: rowcol_macros
+Package: rowcolmacros
 Type: Package
 Title: Macros for selecting/renaming/deleting rows/columns based on regexp matches
 Version: 1.0
