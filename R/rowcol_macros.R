@@ -1,4 +1,4 @@
-.packageName <- "rowcol_macros"
+.packageName <- "rowcolmacros"
 
 ### Useful macros
 
