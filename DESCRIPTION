@@ -11,3 +11,5 @@ and macros for manipulating strings.
 License: GNU GPLv3
 Collate:
     'rowcol_macros.R'
+Depends:
+    gtools
