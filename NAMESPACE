@@ -1,3 +1,5 @@
+export(numcols)
+export(numrows)
 export(afindcols)
 export(afindrows)
 export(aremovecols)
