@@ -2,26 +2,6 @@
 
 ### Useful macros
 
-##' Return number of columns of dataframe
-##' (this is slightly easier to read than dim(DF)[2])
-##'
-##' @param DF a dataframe
-##' @return the number of columns of the dataframe
-##' @seealso \code{\link{numrows}}
-##' @author Ben Veal
-##' @export
-numcols <- defmacro(DF,expr={dim(DF)[2]})
-
-##' Return number of rows of dataframe
-##' (this is slightly easier to read than dim(DF)[1])
-##'
-##' @param DF a dataframe
-##' @return the number of rows of the dataframe
-##' @seealso \code{\link{numcols}}
-##' @author Ben Veal
-##' @export
-numrows <- defmacro(DF,expr={dim(DF)[1]})
-
 ##' Remove from workspace all objects with names matching regexp
 ##'
 ##' @param regexp a regular expression (as a character object)
